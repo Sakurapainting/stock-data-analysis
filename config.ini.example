@@ -1,0 +1,21 @@
+[tushare]
+token = REPLACE_WITH_YOUR_TUSHARE_TOKEN
+
+[mysql]
+host = 127.0.0.1
+port = 3306
+user = root
+password = REPLACE_WITH_YOUR_MYSQL_PASSWORD
+database = iot_stock_hw1
+charset = utf8mb4
+
+[stock]
+student_id = REPLACE_WITH_YOUR_STUDENT_ID
+market = sh
+ts_code_override =
+stock_name = 
+
+[app]
+start_date = 20180101
+end_date = 20231231
+output_dir = output
